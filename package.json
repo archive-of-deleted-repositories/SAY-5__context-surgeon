@@ -57,7 +57,7 @@
     "gray-matter": "^4.0.3"
   },
   "peerDependencies": {
-    "@anthropic-ai/sdk": ">=0.30.0"
+    "@anthropic-ai/sdk": ">=0.91.1"
   },
   "peerDependenciesMeta": {
     "@anthropic-ai/sdk": {
@@ -65,14 +65,15 @@
     }
   },
   "devDependencies": {
-    "@anthropic-ai/sdk": "^0.90.0",
+    "@anthropic-ai/sdk": "0.91.1",
     "@types/node": "^20.11.0",
-    "tsx": "^4.7.0",
+    "tsx": "^4.23.13",
     "typescript": "^5.3.3",
-    "vitest": "^1.2.0"
+    "vite": "^7.3.6",
+    "vitest": "^4.1.11"
   },
   "engines": {
-    "node": ">=20"
+    "node": "^20.19.0 || ^22.13.0 || >=24.0.0"
   },
   "license": "MIT"
 }

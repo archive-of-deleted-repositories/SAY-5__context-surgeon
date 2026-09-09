@@ -1,9 +1,11 @@
 # Contributing
 
+Use Node.js 20.19+, 22.13+, or 24+ (even-numbered LTS releases) for the build and test toolchain. The optional Anthropic SDK integration requires version 0.91.1 or newer.
+
 Quick start:
 
 ```bash
-npm install
+npm ci
 npm run build
 npm test
 ```
